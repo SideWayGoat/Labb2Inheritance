@@ -15,6 +15,8 @@ namespace Labb2Inheritance
 
             Horse horse = new Horse("Keth-Selhan", "Male","Black", 3,100,"Neigh");
             horse.TheAnimal();
+            horse.DrinkWater();
+            horse.TimeToEat();
             horse.MakeSound();
             horse.CavalryCharge();
 
@@ -24,10 +26,21 @@ namespace Labb2Inheritance
             Maya.DrinkWater();
             Maya.TimeToEat();
             Maya.SamoyedSpecial();
+
             Chihuahua demon = new Chihuahua("Demon", "Demon", "white", 2, 2, "grrrrrrr");
             demon.TheAnimal();
-            demon.CheckRabies();
+            demon.DrinkWater();
+            demon.TimeToEat();
             demon.MakeSound();
+            demon.CheckRabies();
+
+            Cat cat = new Cat("Josefin", "Female", "Red", 4, 2, "breeeow");
+            cat.TheAnimal();
+            cat.DrinkWater();
+            cat.TimeToEat();
+            cat.MakeSound();
+            cat.Purr();
+
         }
     }
 }
