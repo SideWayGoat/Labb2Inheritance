@@ -16,10 +16,6 @@ namespace Labb2Inheritance
         }
 
 
-        public Cat(string _name, string _gender, int _legs, string _colour, int _age, int _weight, string _sound) : base(_name, _gender,_legs, _colour,_age,_weight,_sound)
-        {
-            this.Sound = _sound;
-        }
 
         public void Purr()
         {

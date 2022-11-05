@@ -11,14 +11,15 @@ namespace Labb2Inheritance
             dog.DrinkWater();
             dog.TimeToEat();
             dog.MakeSound();
-            
 
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
             Horse horse = new Horse("Keth-Selhan", "Male","Black", 3,100,"Neigh");
             horse.TheAnimal();
             horse.DrinkWater();
             horse.TimeToEat();
             horse.MakeSound();
             horse.CavalryCharge();
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
             Samoyed Maya = new Samoyed("Maya", "Female", "White", 7, 17, "Woof");
             Maya.TheAnimal();
@@ -26,6 +27,7 @@ namespace Labb2Inheritance
             Maya.DrinkWater();
             Maya.TimeToEat();
             Maya.SamoyedSpecial();
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
             Chihuahua demon = new Chihuahua("Demon", "Demon", "white", 2, 2, "grrrrrrr");
             demon.TheAnimal();
@@ -33,6 +35,7 @@ namespace Labb2Inheritance
             demon.TimeToEat();
             demon.MakeSound();
             demon.CheckRabies();
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
             Cat cat = new Cat("Josefin", "Female", "Red", 4, 2, "breeeow");
             cat.TheAnimal();
