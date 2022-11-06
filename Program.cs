@@ -29,12 +29,12 @@ namespace Labb2Inheritance
             Maya.SamoyedSpecial();
             Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
-            Chihuahua demon = new Chihuahua("Demon", "Demon", "white", 2, 2, "grrrrrrr");
-            demon.TheAnimal();
-            demon.DrinkWater();
-            demon.TimeToEat();
-            demon.MakeSound();
-            demon.CheckRabies();
+            Chihuahua DemonDog = new Chihuahua("Demon", "Demon", "white", 2, 2, "grrrrrrr");
+            DemonDog.TheAnimal();
+            DemonDog.DrinkWater();
+            DemonDog.TimeToEat();
+            DemonDog.MakeSound();
+            DemonDog.CheckRabies();
             Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
             Cat cat = new Cat("Josefin", "Female", "Red", 4, 2, "breeeow");

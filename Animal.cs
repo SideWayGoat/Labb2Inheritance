@@ -16,6 +16,8 @@ namespace Labb2Inheritance
         {
 
         }
+
+        //Constructor for animal with 4 legs
         public Animal(string _name, string _gender, string _colour, int _age, int _weight, string _sound)
         {
             this.Name = _name;
